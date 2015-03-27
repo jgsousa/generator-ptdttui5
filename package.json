@@ -1,0 +1,19 @@
+{
+  "name": "generator-ptdttui5",
+  "version": "0.1.2",
+  "description": "Gerador OpenUI5 PT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Guilherme Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.18.10"
+  },
+  "devDependencies": {
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.3"
+  }
+}
