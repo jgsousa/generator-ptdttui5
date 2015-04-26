@@ -123,6 +123,7 @@
         //this.copy("jshintrc", ".jshintrc");
         this.template("_bower.json", "bower.json");
         this.template("_package.json", "package.json");
+        this.template("_eslintrc", ".eslintrc");
 
         //this.template("_README.md", "README.md");
         this.copy("_gitignore", ".gitignore");
