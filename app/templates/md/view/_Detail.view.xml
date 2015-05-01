@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="<%= fioriComponentNamespace %>.view.Detail"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:c="sap.ui.core"
+	xmlns="sap.m">
+	<Page
+		showNavButton="{device>/isPhone}"
+		navButtonPress="onNavBack"
+		class="sapUiFioriObjectPage"
+		title="{i18n>detailTitle}">
+		<content>
+		</content>
+		<footer>
+			<Toolbar>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

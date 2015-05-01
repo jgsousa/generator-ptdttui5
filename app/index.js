@@ -147,9 +147,7 @@
         this.copy("md/i18n/messageBundle.properties", "i18n/messageBundle.properties");
 
         this.mkdir("model");
-
-        this.mkdir("tests");
-        this.copy("gitkeep", "img/.gitkeep");
+        
         //Not copying a test file at this stage - the sap provided one is wrong!
         //this.copy("tdg/tests/Navigation.qunit.html", "tests/Navigation.qunit.html");
 
@@ -159,6 +157,14 @@
 
         this.mkdir("view");
         this.template("md/view/_App.view.xml", "view/App.view.xml");
+        this.template("md/view/_NotFound.view.xml", "view/NotFound.view.xml");
+        this.template("md/view/_Detail.view.xml", "view/Detail.view.xml");
+        this.template("md/view/_Master.view.xml", "view/Master.view.xml");
+        this.template("md/view/_Detail.controller.js", "view/Detail.controller.js");
+        this.template("md/view/_Master.controller.js", "view/Master.controller.js");
+        this.template("md/view/_Dialog.fragment.xml", "view/Dialog.fragment.xml");
+
+
         this.template("md/_index.html", "index.html");
         this.template("md/_Component.js", "Component.js");
         this.template("md/_MyRouter.js", "MyRouter.js");
