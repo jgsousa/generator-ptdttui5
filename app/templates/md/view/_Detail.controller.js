@@ -1,9 +1,7 @@
 jQuery.sap.require("<%= fioriComponentNamespace %>.util.Formatter");
 jQuery.sap.require("<%= fioriComponentNamespace %>.util.Controller");
-jQuery.sap.require("<%= fioriComponentNamespace %>.util.Tables");
-jQuery.sap.require("<%= fioriComponentNamespace %>.util.Modelo");
 
-sap.sousa.Processo.util.Controller.extend("<%= fioriComponentNamespace %>.view.Detail", {
+<%= fioriComponentNamespace %>.util.Controller.extend("<%= fioriComponentNamespace %>.view.Detail", {
 
 	onInit : function() {
 		this.oInitialLoadFinishedDeferred = jQuery.Deferred();
