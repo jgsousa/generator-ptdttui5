@@ -1,6 +1,6 @@
 {
   "name": "generator-ptdttui5",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Gerador OpenUI5 PT",
   "main": "index.js",
   "scripts": {

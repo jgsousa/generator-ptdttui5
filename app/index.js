@@ -147,7 +147,7 @@
         this.copy("md/i18n/messageBundle.properties", "i18n/messageBundle.properties");
 
         this.mkdir("model");
-        
+
         //Not copying a test file at this stage - the sap provided one is wrong!
         //this.copy("tdg/tests/Navigation.qunit.html", "tests/Navigation.qunit.html");
 
